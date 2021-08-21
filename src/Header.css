@@ -1,0 +1,66 @@
+.Header {
+  height: 60px;
+  display: flex;
+  background-color: rgb(2, 1, 8);
+  align-items: center;
+  position: sticky;
+  top: 0%;
+  z-index: 100;
+  justify-content: space-evenly;
+}
+.header_logo {
+  width: 100px;
+  object-fit: contain;
+  margin: 0 20px;
+  margin-top: 18px;
+}
+.header_search {
+  display: flex;
+  flex: 1;
+
+  border-radius: 24px;
+}
+.header_search_input {
+  border: none;
+  width: 100%;
+  padding: 10px;
+  height: 12px;
+}
+.header_search_icon {
+  padding: 5px;
+  height: 22px !important;
+
+  background-color: chocolate;
+}
+.header_nav {
+  display: flex;
+  justify-content: space-evenly;
+}
+.header_option {
+  display: flex;
+  flex-direction: column;
+  margin-left: 10px;
+  margin-right: 10px;
+  color: cornsilk;
+}
+.headerup {
+  font-size: 20px;
+}
+.headerlow {
+  font-weight: bold;
+  margin-top: 1px;
+  margin-bottom: 1px;
+  object-fit: contain;
+}
+.header_basket {
+  display: flex;
+  align-items: center;
+  color: cornsilk;
+}
+
+.basketcount {
+  margin-left: 10px;
+  margin-right: 10px;
+  color: cornsilk;
+  font-weight: bold;
+}
